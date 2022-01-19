@@ -5,10 +5,12 @@ import Posts from "./components/Posts/Posts";
 import Form from "./components/Form/Form";
 import useStyles from "./styles";
 const App = () => {
+  // Use of MaterialUI css classses
   const classes = useStyles();
   return (
     <Container maxWidth="lg">
       <AppBar className={classes.appBar} position="static" color="inherit">
+        {/* Layout */}
         <Typography className={classes.heading} variant="h2" align="center">
           Memories
         </Typography>
